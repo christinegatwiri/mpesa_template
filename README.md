@@ -2,14 +2,18 @@
 
 1. Create and activate virtual environment
 2. Install django
-3. Start project using this template, ensuring to replace `ian_test_proj` with the appropriate project name on the command below:
+3. Clone the repo
 
     ```bash
-    django-admin startproject --template https://github.com/Impact-Africa-Network/ian-django-template/archive/main.zip ian_test_proj .
+    git clone 
     ```
-4. Rename all the `.template` files by removing the `.template` extensions
+4. Update your submodule
 
-5. Rename the `env` to `.env`
+    ```bash
+    git submodule update --init --recursive
+    ```
+
+5. Rename the `env.template` to `.env` 
 
 6. Populate the `.env` with real values
 
