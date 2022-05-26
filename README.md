@@ -5,7 +5,7 @@
 3. Clone the repo
 
     ```bash
-    git clone 
+    git clone https://github.com/christinegatwiri/mpesa_template.git
     ```
 4. Update your submodule
 
